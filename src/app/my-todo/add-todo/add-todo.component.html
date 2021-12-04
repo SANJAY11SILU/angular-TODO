@@ -1,0 +1,13 @@
+<!-- <p>add-todo works!</p> -->
+<div>
+  <form action=""(ngSubmit)="onSubmit()" >
+  <div class="mb-3" >
+    <label for="exampleFormControlInput1" class="form-label">NAME</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name type here" name="title" [(ngModel)]="title">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label" name="desc">DESCRIPTION</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="description here" name="title"  [(ngModel)]="description">
+  </div>
+  <button class="btn btn-danger">Add</button></form>
+</div>
